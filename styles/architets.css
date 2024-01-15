@@ -79,3 +79,26 @@ nav li a{
             50px;
         } 
      }
+     main{
+        max-width: 1440px;
+        margin: 0 auto;
+     }
+     .teams-container{
+        display: flex;
+        align-items: center;
+     }
+     .teams-img-container{
+        display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 24px;
+     }
+     .teams-content{
+        margin-right: 70px;
+        margin-left: 70px;
+     }
+.teams-description{
+    color:  #727272;
+
+font-size: 16px;
+font-weight: 400;
+}
